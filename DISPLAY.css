@@ -1,0 +1,15 @@
+*{
+    margin: 5px;
+    padding: 0;
+}
+section{
+    background-color: aqua;
+}
+.conteiner{
+    /* background-color: rgb(33, 248, 26); */
+    width: 800px;
+    border: solid 5px;
+    text-align: center;
+    padding: 0 auto;
+    margin: 0 auto;
+}
