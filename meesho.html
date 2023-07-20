@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            height: 1000px;
+            background-color: aliceblue;
+        }
+        .container{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        header{
+            background-color: aliceblue;
+        }
+        nav{
+            /* border: solid 2px; */
+            align-items: center;
+            display:flex;
+            justify-content:space-between;
+
+        }
+        .icon i{
+            /* display: inline; */
+        }
+        .row{
+            display: flex;
+            align-items: center;
+        }
+        .link a{
+            color: black;
+            text-decoration: none;
+            font-size:20px;
+
+        }
+        ul li{
+            display: inline-block;
+            margin: 30px;
+        }
+        h1{
+            font-size: 30px;
+            color: purple;
+            font-family: "Helvetica Neue", sans-serif, "Mier Book";
+            font-weight: 400;
+            letter-spacing: 0.5px;
+        }
+        .fa-solid{
+            font-size: 30px;
+        }
+        .icons i{
+            display: block;
+            
+            /* padding: 5px; */
+        }
+        .icon i{
+            display: block;
+        }
+       
+    </style>
+
+</head>
+<body>
+    <section>
+        <header>
+            <div class="container">
+                <nav>
+                    <div>
+                        <h1>meesho</h1>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div> 
+                         <label for="search"></label>   
+                        <input type="text" placeholder="try,sarre,kurti or search by product code">
+                    </div>
+                    <div class="link">
+                        <ul>
+                           <i class="fa-solid fa-mobile-retro"></i>
+                           <li><a href="#">download <br> app</a></li>
+                            <li><a href="#">becomea<br> a suppiler</a></li>
+                        </ul>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-user"></i>
+                        <span>Profile</span>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span>Cart</span>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+</body>
+
+</html>
